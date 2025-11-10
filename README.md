@@ -90,47 +90,6 @@ This repository serves as a template for building clean, maintainable, and scala
 
 ---
 
-## 📁 Project Structure
-
-The repository is structured to be scalable and maintainable.
-
-```
-
-.
-├── data/
-│   └── extracted\_data/
-│       └── AmesHousing.csv
-├── .mlruns/                \# MLflow tracking directory
-├── pipelines/
-│   ├── deployment\_pipeline.py
-│   └── training\_pipeline.py  \# ZenML training pipeline definition
-├── src/
-│   ├── data\_splitter.py
-│   ├── feature\_engineering.py
-│   ├── handle\_missing\_values.py
-│   ├── ingest\_data.py
-│   ├── model\_building.py
-│   ├── model\_evaluator.py
-│   ├── outlier\_detection.py
-│   └── steps/                \# ZenML steps
-│       ├── data\_ingestion\_step.py
-│       ├── data\_splitter\_step.py
-│       ├── feature\_engineering\_step.py
-│       ├── handle\_missing\_values\_step.py
-│       ├── model\_building\_step.py
-│       ├── model\_evaluator\_step.py
-│       └── outlier\_detection\_step.py
-├── tests/
-├── config.yaml             \# Configuration file
-├── requirements.txt        \# Project dependencies
-├── run\_deployment.py       \# Script to run deployment pipeline
-├── run\_pipeline.py         \# Script to run training pipeline
-└── sample\_predict.py       \# Example script for prediction
-
-````
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
