@@ -47,8 +47,8 @@ This repository serves as a template for building clean, maintainable, and scala
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone https://github.com/jonathan-thoms/ZenML-MLFlow-Pipeline.git
+    cd ZenML-MLFlow-Pipeline
     ```
 
 2.  **Create and activate a virtual environment:**
