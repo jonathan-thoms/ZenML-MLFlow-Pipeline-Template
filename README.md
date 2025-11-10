@@ -51,10 +51,6 @@ The key is to signal that this is more than just a simple model.
 
 -----
 
-### README.md File
-
-Here is a comprehensive README.md file you can copy and paste. It's written in Markdown.
-
 ```markdown
 # Production-Grade ML Pipeline Template
 
